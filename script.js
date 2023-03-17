@@ -16,11 +16,13 @@ function addTask() {
   deleteBtn.className = "delete";
   deleteBtn.innerHTML = "Delete";
   deleteBtn.onclick = deleteTask;
+  deleteBtn.style.color='red'
 
   var editBtn = document.createElement("button");
   editBtn.className = "edit";
   editBtn.innerHTML = "Edit";
   editBtn.onclick = editTask;
+  editBtn.style.color='green'
 
   li.appendChild(span);
   li.appendChild(editBtn);
@@ -41,6 +43,7 @@ function deleteTask(e) {
 function editTask(e){
     var task = e.target.parentElement;
     var input = document.createElement("input");
+    input.className = "input";
     input.type = "text";
     input.value = task.firstChild.innerHTML;
     task.replaceChild(input, task.firstChild);
