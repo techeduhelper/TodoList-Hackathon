@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.full-body{
+    width: 80%;
+    margin: auto;
+    height: auto;
+    margin-top: 10vh;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.wrapper{
+    background-color: #068AF0;
+    height: 150px;
+    text-align: center;
+    padding: 4rem;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 5px 5px 0  0;
+}
+.header{
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.input-button-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.input-container{
+    width: 78%;
+    margin-right: 1rem;
+
+}
+#inputTask{
+    width: 100%;
+    height: 2.5rem;
+    padding-left: 1rem;
+    border-radius: 4px;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+}
+.button-container{
+    width: 17%;
+    margin-left: 2rem;
+}
+#addInput{
+    width: 100%;
+    height: 2.5rem;
+    font-size: 1rem;
+    padding: 0.5rem;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 700;
+    background-color: #fff;
+}
+#addInput:hover{
+    background-color: #e6d2d2;
+}
+
+
+.list-task{
+    text-align: center;
+    padding-bottom: 1rem;
+    padding-top: 1.5rem;
+}
+.list-task>span{
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.container{
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.task{
+    width: 100%;
+    height: 2.5rem;
+    margin-top: 1rem;
+    list-style-type: none;
+    border: none;
+    background-color: #F5F5F5;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    padding: 0.5rem;
+    
+}
+.edit, .delete{
+    float: right;
+    padding: 0.5rem;
+    margin-left: 0.4rem;
+}
+
+
+.item-task{
+    padding-left: 0.8rem;
+}

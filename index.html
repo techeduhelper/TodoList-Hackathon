@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo List - Hackathon</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="full-body">
+        <div class="wrapper">
+        <div class="header-container">
+            <span class="header">Todo List</span>
+        </div>
+        <div class="input-button-container">
+            <div class="input-container">
+                <input type="text" placeholder="Enter your task" id="inputTask" >
+            </div>
+            <div class="button-container">
+                <input type="button" value="Add" id="addInput" onclick="addTask()">
+            </div>
+        </div>
+    </div>
+    <div class="list-task">
+        <span>List of tasks</span>
+    </div>
+    <div class="container">
+        <ul id="taskList"></ul>
+    </div>
+    </div>
+</body>
+</html>
